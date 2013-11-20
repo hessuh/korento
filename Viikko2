@@ -1,0 +1,7 @@
+function sanoHei(nimi) {
+    	var teksti = 'Hei ' + nimi;
+    	var sanoHeiSulkeuma = function() { alert(teksti); }
+    	return sanoHeiSulkeuma;
+    }
+
+sanoHei('Bob').call(); // alerttaa "Hei Bob"
